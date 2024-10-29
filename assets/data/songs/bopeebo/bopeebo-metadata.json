@@ -14,8 +14,6 @@
       "erect"
     ],
     "difficulties": [
-      "easy",
-      "normal",
       "hard"
     ],
     "characters": {
@@ -30,9 +28,9 @@
     "ratings": {
       "erect": 0,
       "easy": 0,
-      "normal": 0,
       "nightmare": 0,
-      "hard": 0
+      "hard": 0,
+      "normal": 0
     },
     "album": "volume1",
     "previewStart": 0,

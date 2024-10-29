@@ -1,34 +1,106 @@
 {
   "version": "2.0.0",
   "scrollSpeed": {
-    "easy": 1,
-    "default": 1,
     "hard": 2.6,
-    "normal": 1
+    "default": 1
   },
   "events": [
     {
       "t": 9600,
       "e": "FocusCamera",
       "v": {
-	"duration": 4,
 	"x": 0,
+	"duration": 4,
 	"y": 0,
-	"ease": "quartInOut",
-	"char": 0
+	"char": 0,
+	"ease": "quartInOut"
 }
     },
     {
       "t": 49350,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 49800,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 52650,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 52650,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 60000,
+      "e": "ZoomCamera",
+      "v": {
+	"duration": 8,
+	"ease": "quartInOut",
+	"zoom": 2,
+	"mode": "direct"
+}
+    },
+    {
+      "t": 64050,
+      "e": "ZoomCamera",
+      "v": {
+	"duration": 8,
+	"ease": "quartInOut",
+	"zoom": 0.7,
+	"mode": "direct"
+}
+    },
+    {
+      "t": 64200,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "cheer",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 64950,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 64950,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 65100,
       "e": "PlayAnimation",
       "v": {
 	"target": "boyfriend",
@@ -37,35 +109,244 @@
 }
     },
     {
-      "t": 52650,
+      "t": 65400,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 68850,
       "e": "PlayAnimation",
       "v": {
 	"target": "boyfriend",
-	"anim": "dodge",
+	"anim": "cheer",
 	"force": true
 }
     },
     {
-      "t": 52650,
+      "t": 69300,
       "e": "PlayAnimation",
       "v": {
 	"target": "boyfriend",
-	"anim": "dodge",
+	"anim": "attack",
 	"force": true
 }
     },
     {
-      "t": 60000,
+      "t": 69450,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 69900,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 73200,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 73200,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "scared",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 73800,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "hey",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 77700,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "hey",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 77700,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "cheer",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 78300,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 78450,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 78900,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 79650,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "cheer",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 80550,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 80700,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 81000,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "dodge",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 81600,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "idle",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 81900,
       "e": "ZoomCamera",
       "v": {
+	"duration": 10,
 	"ease": "quartInOut",
+	"zoom": 1,
+	"mode": "direct"
+}
+    },
+    {
+      "t": 121500,
+      "e": "PlayAnimation",
+      "v": {
+	"target": "boyfriend",
+	"anim": "cheer",
+	"force": true
+}
+    },
+    {
+      "t": 121800,
+      "e": "PlayAnimation",
+      "v": {
+	"target": "boyfriend",
+	"anim": "attack",
+	"force": true
+}
+    },
+    {
+      "t": 121800,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 121950,
+      "e": "PlayAnimation",
+      "v": {
+	"force": true,
+	"anim": "attack",
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 124650,
+      "e": "PlayAnimation",
+      "v": {
+	"target": "boyfriend",
+	"anim": "dodge",
+	"force": true
+}
+    },
+    {
+      "t": 132450,
+      "e": "ZoomCamera",
+      "v": {
 	"duration": 8,
+	"ease": "quartInOut",
 	"mode": "direct",
 	"zoom": 2
 }
     },
     {
-      "t": 64050,
+      "t": 135900,
+      "e": "ZoomCamera",
+      "v": {
+	"ease": "linear",
+	"duration": 4,
+	"mode": "stage",
+	"zoom": 0.7
+}
+    },
+    {
+      "t": 135900,
       "e": "ZoomCamera",
       "v": {
 	"ease": "quartInOut",
@@ -75,476 +356,193 @@
 }
     },
     {
-      "t": 64200,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "cheer",
-	"force": true
-}
-    },
-    {
-      "t": 64950,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 64950,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 65100,
-      "e": "PlayAnimation",
-      "v": {
-	"force": true,
-	"anim": "attack",
-	"target": "boyfriend"
-}
-    },
-    {
-      "t": 65400,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "dodge",
-	"force": true
-}
-    },
-    {
-      "t": 68850,
-      "e": "PlayAnimation",
-      "v": {
-	"force": true,
-	"anim": "cheer",
-	"target": "boyfriend"
-}
-    },
-    {
-      "t": 69300,
-      "e": "PlayAnimation",
-      "v": {
-	"force": true,
-	"anim": "attack",
-	"target": "boyfriend"
-}
-    },
-    {
-      "t": 69450,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 69900,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "dodge",
-	"force": true
-}
-    },
-    {
-      "t": 73200,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "dodge",
-	"force": true
-}
-    },
-    {
-      "t": 73200,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "scared",
-	"force": true
-}
-    },
-    {
-      "t": 73800,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "hey",
-	"force": true
-}
-    },
-    {
-      "t": 77700,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "hey",
-	"force": true
-}
-    },
-    {
-      "t": 77700,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "cheer",
-	"force": true
-}
-    },
-    {
-      "t": 78300,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 78450,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 78900,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "dodge",
-	"force": true
-}
-    },
-    {
-      "t": 79650,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "cheer",
-	"force": true
-}
-    },
-    {
-      "t": 80550,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 80700,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 81000,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "dodge",
-	"force": true
-}
-    },
-    {
-      "t": 81600,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "idle",
-	"force": true
-}
-    },
-    {
-      "t": 81900,
-      "e": "ZoomCamera",
-      "v": {
-	"ease": "quartInOut",
-	"duration": 10,
-	"mode": "direct",
-	"zoom": 1
-}
-    },
-    {
-      "t": 121500,
-      "e": "PlayAnimation",
-      "v": {
-	"force": true,
-	"anim": "cheer",
-	"target": "boyfriend"
-}
-    },
-    {
-      "t": 121800,
-      "e": "PlayAnimation",
-      "v": {
-	"force": true,
-	"anim": "attack",
-	"target": "boyfriend"
-}
-    },
-    {
-      "t": 121800,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 121950,
-      "e": "PlayAnimation",
-      "v": {
-	"target": "boyfriend",
-	"anim": "attack",
-	"force": true
-}
-    },
-    {
-      "t": 124650,
-      "e": "PlayAnimation",
-      "v": {
-	"force": true,
-	"anim": "dodge",
-	"target": "boyfriend"
-}
-    },
-    {
-      "t": 132450,
-      "e": "ZoomCamera",
-      "v": {
-	"ease": "quartInOut",
-	"duration": 8,
-	"zoom": 2,
-	"mode": "direct"
-}
-    },
-    {
-      "t": 135900,
-      "e": "ZoomCamera",
-      "v": {
-	"duration": 4,
-	"ease": "linear",
-	"zoom": 0.7,
-	"mode": "stage"
-}
-    },
-    {
-      "t": 135900,
-      "e": "ZoomCamera",
-      "v": {
-	"duration": 8,
-	"ease": "quartInOut",
-	"zoom": 0.7,
-	"mode": "direct"
-}
-    },
-    {
       "t": 136050,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "cheer",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 136650,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 136800,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 137250,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "dodge",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 140550,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "cheer",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 141150,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 141300,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 141750,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "dodge",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 145050,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "scared",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 145650,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "hey",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 145950,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "hey",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 146100,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "hey",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 149550,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "cheer",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 150150,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 150300,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 150600,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "dodge",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 151500,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 152250,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 152400,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 152850,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "dodge",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 153900,
       "e": "ZoomCamera",
       "v": {
-	"ease": "quartInOut",
 	"duration": 8,
-	"zoom": 2.3,
-	"mode": "direct"
+	"ease": "quartInOut",
+	"mode": "direct",
+	"zoom": 2.3
 }
     },
     {
@@ -567,277 +565,277 @@
       "t": 162900,
       "e": "ZoomCamera",
       "v": {
-	"ease": "quartInOut",
 	"duration": 8,
-	"zoom": 1.3,
-	"mode": "direct"
+	"ease": "quartInOut",
+	"mode": "direct",
+	"zoom": 1.3
 }
     },
     {
       "t": 180900,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 1
+	"duration": 8,
+	"zoom": 1,
+	"mode": "direct"
 }
     },
     {
       "t": 184950,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 185250,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 185400,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 188100,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "dodge",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 196200,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 2
+	"duration": 8,
+	"zoom": 2,
+	"mode": "direct"
 }
     },
     {
       "t": 199800,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 0.7
+	"duration": 8,
+	"zoom": 0.7,
+	"mode": "direct"
 }
     },
     {
       "t": 199950,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 200550,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 200700,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 201000,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "dodge",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 204450,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 205050,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 205200,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 205500,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "dodge",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 208800,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "scared",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 209400,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "hey",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 209850,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "hey",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 213300,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "cheer",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 213900,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 214050,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "attack",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 214350,
       "e": "PlayAnimation",
       "v": {
-	"force": true,
+	"target": "boyfriend",
 	"anim": "dodge",
-	"target": "boyfriend"
+	"force": true
 }
     },
     {
       "t": 215250,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 216150,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "attack",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 216300,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "cheer",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 216750,
       "e": "PlayAnimation",
       "v": {
-	"target": "boyfriend",
+	"force": true,
 	"anim": "dodge",
-	"force": true
+	"target": "boyfriend"
 }
     },
     {
       "t": 217800,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 2.3
+	"duration": 8,
+	"zoom": 2.3,
+	"mode": "direct"
 }
     },
     {
       "t": 217800,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 2.3
+	"duration": 8,
+	"zoom": 2.3,
+	"mode": "direct"
 }
     },
     {
       "t": 217800,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 2.3
+	"duration": 8,
+	"zoom": 2.3,
+	"mode": "direct"
 }
     },
     {
@@ -860,15 +858,14 @@
       "t": 253800,
       "e": "ZoomCamera",
       "v": {
-	"duration": 8,
 	"ease": "quartInOut",
-	"mode": "direct",
-	"zoom": 0.8
+	"duration": 8,
+	"zoom": 0.8,
+	"mode": "direct"
 }
     }
   ],
   "notes": {
-    "easy": [    ],
     "hard": [
       {
         "t": 9450,
@@ -1817,66 +1814,6 @@
       },
       {
         "t": 85350,
-        "d": 1,
-        "l": 450
-      },
-      {
-        "t": 86700,
-        "d": 1,
-        "l": 150
-      },
-      {
-        "t": 87000,
-        "d": 3,
-        "l": 150
-      },
-      {
-        "t": 87300,
-        "d": 0,
-        "l": 150
-      },
-      {
-        "t": 87600,
-        "d": 1,
-        "l": 0
-      },
-      {
-        "t": 87750,
-        "d": 2,
-        "l": 300
-      },
-      {
-        "t": 88200,
-        "d": 1,
-        "l": 150
-      },
-      {
-        "t": 88500,
-        "d": 0,
-        "l": 0
-      },
-      {
-        "t": 88800,
-        "d": 2,
-        "l": 0
-      },
-      {
-        "t": 88950,
-        "d": 3,
-        "l": 300
-      },
-      {
-        "t": 89550,
-        "d": 0,
-        "l": 0
-      },
-      {
-        "t": 89700,
-        "d": 1,
-        "l": 0
-      },
-      {
-        "t": 90000,
         "d": 1,
         "l": 450
       },
@@ -4480,8 +4417,7 @@
         "d": 0,
         "l": 0
       }
-    ],
-    "normal": [    ]
+    ]
   },
   "generatedBy": "MasterEric (by hand)"
 }
